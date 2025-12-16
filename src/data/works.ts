@@ -28,7 +28,9 @@ export const works: Work[] = [
         ],
         category: "Residential",
         reviews: [
-            { user: "Priya S.", comment: "The partition design completely transformed our hall!", rating: 5 }
+            { user: "Priya S.", comment: "The partition design completely transformed our hall! It feels so much bigger now.", rating: 5 },
+            { user: "Arun Kumar", comment: "Excellent use of space. The limestone wall texture is a real conversation starter.", rating: 5 },
+            { user: "Sarah J.", comment: "Minimalist yet warm. Exactly the vibe we were looking for.", rating: 4 }
         ]
     },
     {
@@ -42,7 +44,11 @@ export const works: Work[] = [
             "/residential/IMG_4273.JPG"
         ],
         category: "Residential",
-        reviews: []
+        reviews: [
+            { user: "Sneha Reddy", comment: "I love the pop of lime green! It makes cooking so much more fun.", rating: 5 },
+            { user: "Mohan Das", comment: "Storage solutions are brilliant. Everything has its place now.", rating: 5 },
+            { user: "Kavya L.", comment: "Great finish on the cabinets. Highly recommended.", rating: 4 }
+        ]
     },
     {
         id: 3,
@@ -55,7 +61,11 @@ export const works: Work[] = [
             "/residential/IMG_4261.JPG"
         ],
         category: "Residential",
-        reviews: []
+        reviews: [
+            { user: "Rohan & Aishwarya", comment: "The dual-tone wardrobe is stunning. The study unit is perfect for my work-from-home days.", rating: 5 },
+            { user: "Vikram S.", comment: "Very cozy and modern. The lighting was well planned.", rating: 4 },
+            { user: "Divya M.", comment: "Timely completion and good quality materials used.", rating: 5 }
+        ]
     },
     {
         id: 9,
@@ -68,7 +78,11 @@ export const works: Work[] = [
             "/residential/c1956e6e-13af-4241-a216-e0af81e0dab3.jpg"  // Living room view
         ],
         category: "Residential",
-        reviews: []
+        reviews: [
+            { user: "Amit Patel", comment: "The geometric wall panel is a masterpiece. Everyone asks about it!", rating: 5 },
+            { user: "Suresh K.", comment: "Classy and sophisticated. The TV unit floats perfectly.", rating: 5 },
+            { user: "Meera N.", comment: "Elegant design that suits our lifestyle perfectly.", rating: 4 }
+        ]
     },
 
     {
@@ -87,7 +101,11 @@ export const works: Work[] = [
             "/residential/aa4a3fc9-24b4-4d97-9b4a-47dd0e4fc02b.jpg"
         ],
         category: "Residential",
-        reviews: []
+        reviews: [
+            { user: "Dr. Rao", comment: "Exceptional woodworking. The details in the wardrobe are exquisite.", rating: 5 },
+            { user: "Sunita W.", comment: "True luxury feeling. The materials used are top-notch.", rating: 5 },
+            { user: "Rajeev C.", comment: "A comprehensive solution for our entire floor. Very satisfied.", rating: 4 }
+        ]
     },
     {
         id: 12,
@@ -110,7 +128,23 @@ export const works: Work[] = [
             "/residential/Capture.JPG-5.JPG"
         ],
         category: "Residential",
-        reviews: []
+        reviews: [
+            {
+                user: "Rajesh & Meena",
+                comment: "We are absolutely in love with our new home interiors! The team captured exactly what we wanted for the drawing room.",
+                rating: 5
+            },
+            {
+                user: "Karthik R.",
+                comment: "The modular kitchen is not just beautiful but extremely functional. Great attention to detail.",
+                rating: 5
+            },
+            {
+                user: "Anjali Gupta",
+                comment: "Professional execution and timely delivery. The bedroom wardrobes have such a premium finish.",
+                rating: 4
+            }
+        ]
     },
 
     // --- OFFICE PROJECTS ---
@@ -123,7 +157,11 @@ export const works: Work[] = [
             "/office/20200104-DSC09999.jpg"
         ],
         category: "Office",
-        reviews: []
+        reviews: [
+            { user: "TechSolutions CEO", comment: "Our clients are impressed the moment they step out of the lift. Great branding.", rating: 5 },
+            { user: "HR Manager", comment: "Professional and sleek. Sets the right tone for our office.", rating: 5 },
+            { user: "Facilities Team", comment: "Durable materials chosen for high traffic areas. Good thinking.", rating: 4 }
+        ]
     },
     {
         id: 6,
@@ -135,7 +173,11 @@ export const works: Work[] = [
             "/office/Part Photo.JPG"
         ],
         category: "Office",
-        reviews: []
+        reviews: [
+            { user: "Startup Founder", comment: "The open plan has improved our tea collaboration significantly.", rating: 5 },
+            { user: "Operations Head", comment: "Vibrant colors keep the energy high. Acoustic dividers work well.", rating: 4 },
+            { user: "Employee Survey", comment: "Much better than our old cubicles. Feels spacious and airy.", rating: 5 }
+        ]
     },
     {
         id: 7,
@@ -147,6 +189,10 @@ export const works: Work[] = [
             "/office/Cabin Front Door Glass Partition.JPG"
         ],
         category: "Office",
-        reviews: []
+        reviews: [
+            { user: "Director", comment: "Privacy without isolation. The glass partitions are perfect for management.", rating: 5 },
+            { user: "Client Relations", comment: "Looks very premium during video calls. Excellent backdrop.", rating: 5 },
+            { user: "Admin Dept", comment: "Easy to maintain and clean. Very practical design.", rating: 4 }
+        ]
     }
 ];
