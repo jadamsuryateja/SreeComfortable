@@ -13,7 +13,7 @@ export function HeroSection() {
                 </h1>
                 <p className="mt-4 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto">
                     Experience the perfect blend of innovation and elegance.
-                    SreeComfort brings you premium interior solutions designed for modern living.
+                    SreeComforables brings you premium interior solutions designed for modern living.
                 </p>
             </div>
         </div>

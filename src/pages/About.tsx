@@ -21,7 +21,7 @@ export function AboutPage() {
                             <span className="text-stone-400">One Home at a Time.</span>
                         </h1>
                         <p className="text-xl text-stone-300 max-w-4xl mx-auto leading-relaxed font-light">
-                            SREE COMFORTABLES PRIVATE LIMITED is an established furniture and interior design manufacturing company based in Hyderabad, Telangana, India. Incorporated on December 16, 1996, the company has been operational for nearly 29 years and maintains an active status with the Registrar of Companies, Hyderabad.
+                            SREE COMFORTABLES PRIVATE LIMITED is a premier furniture and interior design manufacturing company based in Hyderabad. Since our incorporation in 1996, we have been at the forefront of transforming spaces with our state-of-the-art manufacturing capabilities and innovative design solutions.
                         </p>
                     </div>
 
@@ -32,8 +32,8 @@ export function AboutPage() {
                             <p className="text-xs text-stone-400 uppercase tracking-widest">Years of Excellence</p>
                         </div>
                         <div className="space-y-2 text-center">
-                            <h4 className="text-4xl md:text-5xl font-bold text-amber-500">5k+</h4>
-                            <p className="text-xs text-stone-400 uppercase tracking-widest">Homes Transformed</p>
+                            <h4 className="text-4xl md:text-5xl font-bold text-amber-500">1000+</h4>
+                            <p className="text-xs text-stone-400 uppercase tracking-widest">Workstations / Month</p>
                         </div>
                         <div className="space-y-2 text-center">
                             <h4 className="text-4xl md:text-5xl font-bold text-amber-500">50+</h4>
@@ -41,7 +41,7 @@ export function AboutPage() {
                         </div>
                         <div className="space-y-2 text-center">
                             <h4 className="text-4xl md:text-5xl font-bold text-amber-500">100%</h4>
-                            <p className="text-xs text-stone-400 uppercase tracking-widest">Solid Teak Wood</p>
+                            <p className="text-xs text-stone-400 uppercase tracking-widest">In-House Production</p>
                         </div>
                     </div>
 
@@ -56,7 +56,7 @@ export function AboutPage() {
                             <h2 className="text-3xl font-bold text-white">Business Overview</h2>
                             <div className="h-1 w-20 bg-amber-500"></div>
                             <p className="text-lg text-stone-300 leading-relaxed">
-                                The company primarily operates in the office furniture and interior design sector, specializing in the manufacturing and design of modular office solutions and wooden furniture. While the company's official NIC classification categorizes it under "Other Scheduled Passenger Land Transport," its actual operational focus demonstrates a significant presence in the office furniture and interior design manufacturing industry.
+                                The company specializes in manufacturing and interior design, with a strong focus on office furniture, modular kitchens, and clean room services. We operate a state-of-the-art manufacturing facility in Balanagar equipped with advanced indigenous and imported machinery, capable of producing over 800-1000 workstations per month.
                             </p>
                         </motion.div>
                         <motion.div
@@ -109,11 +109,11 @@ export function AboutPage() {
                             <h2 className="text-3xl font-bold text-white mb-6">Products & Services</h2>
                             <ul className="space-y-4">
                                 {[
-                                    { name: "Office Cabin Interior Design", desc: "Customized interior designs for professional office spaces" },
-                                    { name: "Modular Office Systems", desc: "Flexible and scalable office furniture solutions" },
-                                    { name: "Reception Wooden Furniture", desc: "Premium wooden furniture for reception areas and lobbies" },
-                                    { name: "Office Workstations", desc: "Modern workstation designs for contemporary offices" },
-                                    { name: "Custom Modular Furniture", desc: "Tailored furniture solutions as per client specifications" }
+                                    { name: "Modular Office Systems", desc: "Scalable workstations and office furniture solutions" },
+                                    { name: "Modular Kitchens", desc: "Contemporary kitchen designs with premium finishes" },
+                                    { name: "Clean Room Services", desc: "Specialized infrastructure for controlled environments" },
+                                    { name: "Computer Services", desc: "IT infrastructure support and setup" },
+                                    { name: "Fire Resistant Doors", desc: "Safety-compliant manufacturing for commercial spaces" }
                                 ].map((item, idx) => (
                                     <li key={idx} className="flex gap-4 items-start">
                                         <div className="mt-1.5 w-2 h-2 rounded-full bg-amber-500 shrink-0" />
@@ -153,6 +153,6 @@ export function AboutPage() {
 
                 </div>
             </div>
-        </div>
+        </div >
     );
 }

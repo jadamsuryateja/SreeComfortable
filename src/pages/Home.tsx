@@ -308,7 +308,7 @@ export function HomePage() {
                             {
                                 name: "Priya Sharma",
                                 role: "Interior Designer",
-                                quote: "SreeComfortables transformed my client's villa. The quality of the teak wood is simply unmatched in Hyderabad."
+                                quote: "SreeComforablesables transformed my client's villa. The quality of the teak wood is simply unmatched in Hyderabad."
                             },
                             {
                                 name: "Rahul Verma",
